@@ -1,0 +1,33 @@
+/* This entire thing is called a "ruleset" orjust a rule */
+h1 { /* This is a "selectior" - In this case, I am selecting all the <h1> element in our HTML doc */
+  color: blue; /* This is a "declaration" */
+  /*declaration is broken like
+  property:value */
+}
+
+/* You use # when referencing an element with an id */
+#sport{
+  color: red;
+}
+
+#reason{
+  color: green;
+}
+
+#morning{
+  color: purple;
+}
+
+#music{
+  color: magenta;
+}
+
+p{
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+#box{
+  background-color: yellow;
+}
